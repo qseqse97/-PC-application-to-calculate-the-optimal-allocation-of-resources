@@ -1,0 +1,33 @@
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
