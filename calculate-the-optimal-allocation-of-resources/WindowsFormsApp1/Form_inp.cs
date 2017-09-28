@@ -30,8 +30,9 @@ namespace WindowsFormsApp1
 		public Form_inp()
 		{
 			InitializeComponent();
-			dataGridView_inp.AllowUserToAddRows = false;
+
 			dataGridView_otv.AllowUserToAddRows = false;
+			dataGridView_inp.AllowUserToAddRows = false;
 
 			dataGridView_inp.RowCount = line+1;
 			dataGridView_inp.ColumnCount = column + 1;
@@ -53,7 +54,6 @@ namespace WindowsFormsApp1
 				dataGridView_inp.Rows[i].Cells[0].ReadOnly = true;
 				dataGridView_inp.Rows[i].Cells[0].Value = Convert.ToString(i);
 			}
-			comboBox_otv.Items.Add("Ввод данных");
 			comboBox_otv.Text = ("Ввод данных");
 
 			dataGridView_inp.Rows[1].Cells[1].Value = 7.1;
@@ -155,6 +155,7 @@ namespace WindowsFormsApp1
 		{
 			lit = new double[column - 1, 2 + line, 2 + line];
 			otv = new double[column , 2, line + 1];
+			dan.Clear();
 			int g = 1;
 			//проверка полей на 0
 			if (neeel())
@@ -164,20 +165,24 @@ namespace WindowsFormsApp1
 
 				//нахождение ответа
 				Faind_otv(0,g);
+				string resh="Решение";
+				int k = column;
 				for (int i = 0; i <= column - 2; i++)
 				{
+
+					string s;
+					s=resh +Convert.ToString(k);
+					--k;
 					g++;
 					//запись в lit начал знач
 					Cset_lit(i);
-
 					//просчет
-					
 					proscht(i);
 					//нахождение ответа
 					Faind_otv(i+1,g);
-					
+					comboBox_otv.Items.Add(s);
 				}
-
+				ris_otv();
 
 			}
 			else
@@ -298,40 +303,6 @@ namespace WindowsFormsApp1
 
 		}
 
-
-		//рисует ответ 
-		private void risov(int x)
-		{
-			dataGridView_otv.Rows.Clear();
-			dataGridView_otv.AllowUserToAddRows = false;
-			
-			dataGridView_inp.RowCount =line+1;
-			dataGridView_inp.ColumnCount = 2;
-
-			dataGridView_inp.Rows[0].Cells[0].Value = "x";
-			dataGridView_inp.Rows[0].Cells[0].ReadOnly = true;
-			dataGridView_inp.Rows[0].Cells[1].Value = "w";
-			dataGridView_inp.Rows[0].Cells[1].ReadOnly = true;
-			dataGridView_inp.Columns[0].Width = (int)DataGridViewAutoSizeColumnsMode.Fill;
-			//предприятия 
-			for (int i = 0; i <=2; i++)
-			{
-				for (int j = 1; j < line + 1; j++)
-				{
-					dataGridView_inp.Rows[i].Cells[j - 1].Value = otv[x,i,j];
-					dataGridView_inp.Rows[i].Cells[j - 1].ReadOnly = true;
-				}
-			}
-		}
-
-		//рисует решение
-		private void risov_resh(double [ ,] mas,int x)
-		{
-			dataGridView_inp.Rows.Clear();
-
-		}
-
-
 		//Просчет
 		private void proscht(int x)
 		{
@@ -347,13 +318,68 @@ namespace WindowsFormsApp1
 						sas++;
 					}
 					h++;
-				}
-			
-				
+				}	
 		}
 
-		
+		//Рисует ответ
+		private void ris_otv()
+		{
+			dataGridView_otv.Rows.Clear();
+			dataGridView_otv.AllowUserToAddRows = false;
 
-		
+			//строк
+			dataGridView_otv.RowCount = line+2;
+			//столбцов
+			dataGridView_otv.ColumnCount = (column*2)+1;
+
+			string x = "x";
+			string w = "w";
+			int s = column; ;
+			//предприятия 
+			for (int i = 1; i <dataGridView_otv.ColumnCount; i++)
+			{
+				if ((i % 2) == 0)
+				{
+					dataGridView_otv.Rows[0].Cells[i].Value =w +s+" (s)";
+					--s;
+				}
+				else
+				{
+					dataGridView_otv.Rows[0].Cells[i].Value = x + s + " (s)";
+				}
+				dataGridView_otv.Rows[0].Cells[i].ReadOnly = true;
+			}
+
+			//строки
+			for (int i = 1; i < dataGridView_otv.RowCount; i++)
+			{
+				dataGridView_otv.Rows[i].Cells[0].ReadOnly = true;
+				dataGridView_otv.Rows[i].Cells[0].Value = Convert.ToString(i-1);
+			}
+
+			s =0;
+
+			for (int i=1;i<dataGridView_otv.ColumnCount;i++)
+			{
+				for (int j=1;j<dataGridView_otv.RowCount;j++)
+				{
+					if (i % 2 != 0)
+					{
+						dataGridView_otv.Rows[j].Cells[i].Value = otv[s, 0, j - 1];
+						dataGridView_otv.Rows[j].Cells[i].ReadOnly = true;
+					}
+					else
+					{
+						dataGridView_otv.Rows[j].Cells[i].Value =otv[s,1,j-1];
+						dataGridView_otv.Rows[j].Cells[i].ReadOnly = true;
+					}
+				}
+				if (i % 2 == 0) ++s;
+			}
+
+
+
+		}
+
 	}
 }

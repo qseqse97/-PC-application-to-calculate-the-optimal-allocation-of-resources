@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="decision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decision.Designer.cs">
+      <DependentUpon>decision.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_master.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="master.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="decision.resx">
+      <DependentUpon>decision.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_master.resx">
       <DependentUpon>Form_master.cs</DependentUpon>
     </EmbeddedResource>

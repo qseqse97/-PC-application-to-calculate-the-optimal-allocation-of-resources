@@ -31,3 +31,15 @@ E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\про
 E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\ответ готов\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.decision.resources
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
