@@ -35,8 +35,9 @@ namespace WindowsFormsApp1
 				Form_inp.line = Convert.ToInt32(textBox_str.Text);
 
 				Form_inp inp = new Form_inp();
-				inp.ShowDialog();
 				this.Hide();
+				inp.ShowDialog();
+				this.Close();
 			}
 
 		}

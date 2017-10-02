@@ -39,33 +39,39 @@ namespace WindowsFormsApp1
 
 			dataGridView_inp.Rows[0].Cells[0].Value = "x";
 			dataGridView_inp.Rows[0].Cells[0].ReadOnly = true;
-			//dataGridView_inp.Columns[0].Width =(int) DataGridViewAutoSizeColumnsMode.Fill;
 
 			//предприятия 
 			for (int i =1; i <= column; i++)
 			{
 				dataGridView_inp.Rows[0].Cells[i].Value ="предп "+ Convert.ToString(i);
 				dataGridView_inp.Rows[0].Cells[i].ReadOnly = true;
+				
 			}
-			
+
+			//запрет на сортировку
+			foreach (DataGridViewColumn currDgvColumn in dataGridView_inp.Columns)
+			{
+				currDgvColumn.SortMode = DataGridViewColumnSortMode.NotSortable;
+			}
+
 			//строки
-			for(int i=1;i<=line;i++)
+			for (int i=1;i<=line;i++)
 			{
 				dataGridView_inp.Rows[i].Cells[0].ReadOnly = true;
 				dataGridView_inp.Rows[i].Cells[0].Value = Convert.ToString(i);
 			}
 			comboBox_otv.Text = ("Ввод данных");
 
-			dataGridView_inp.Rows[1].Cells[1].Value = 7.1;
-			dataGridView_inp.Rows[2].Cells[1].Value = 9;
-			dataGridView_inp.Rows[3].Cells[1].Value = 18.8;
-			dataGridView_inp.Rows[4].Cells[1].Value = 25.8;
-			dataGridView_inp.Rows[5].Cells[1].Value = 27.6;
-			dataGridView_inp.Rows[6].Cells[1].Value = 32.3;
-			dataGridView_inp.Rows[7].Cells[1].Value = 42.1;
-			dataGridView_inp.Rows[8].Cells[1].Value = 45.7;
-			dataGridView_inp.Rows[9].Cells[1].Value = 50.3;
-			dataGridView_inp.Rows[10].Cells[1].Value = 50.3;
+			dataGridView_inp.Rows[1].Cells[1].Value = Convert.ToString( 7.1);
+			dataGridView_inp.Rows[2].Cells[1].Value = Convert.ToString(9);
+			dataGridView_inp.Rows[3].Cells[1].Value = Convert.ToString(18.8);
+			dataGridView_inp.Rows[4].Cells[1].Value = Convert.ToString(25.8);
+			dataGridView_inp.Rows[5].Cells[1].Value = Convert.ToString(27.6);
+			dataGridView_inp.Rows[6].Cells[1].Value = Convert.ToString(32.3);
+			dataGridView_inp.Rows[7].Cells[1].Value = Convert.ToString(42.1);
+			dataGridView_inp.Rows[8].Cells[1].Value = Convert.ToString(45.7);
+			dataGridView_inp.Rows[9].Cells[1].Value = Convert.ToString(50.3);
+			dataGridView_inp.Rows[10].Cells[1].Value = Convert.ToString(50.3);
 
 			dataGridView_inp.Rows[1].Cells[2].Value = 7.4;
 			dataGridView_inp.Rows[2].Cells[2].Value = 8.4;
@@ -112,6 +118,7 @@ namespace WindowsFormsApp1
 		{
 			TextBox tb = (TextBox)e.Control;
 			tb.KeyPress += new KeyPressEventHandler(tb_KeyPress);
+			Convert.ToString(tb);
 		}
 
 		//дополнительно проверка на код 2 часть
@@ -381,5 +388,15 @@ namespace WindowsFormsApp1
 
 		}
 
+		//смена item,,нажатие на решение
+		private void comboBox_otv_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			decision.ind =comboBox_otv.SelectedIndex ;
+			decision g = new decision();
+			this.Hide();
+			
+			g.ShowDialog();
+			this.Show();
+		}
 	}
 }
