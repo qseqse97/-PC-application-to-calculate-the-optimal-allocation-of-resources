@@ -29,15 +29,11 @@ namespace WindowsFormsApp1
 				MessageBox.Show("0 и 1 не может быть значением ");
 			else
 			{
-				
-
 				Form_inp.column = Convert.ToInt32(textBox_pred.Text);
 				Form_inp.line = Convert.ToInt32(textBox_str.Text);
-
 				Form_inp inp = new Form_inp();
 				this.Hide();
 				inp.ShowDialog();
-				this.Close();
 			}
 
 		}

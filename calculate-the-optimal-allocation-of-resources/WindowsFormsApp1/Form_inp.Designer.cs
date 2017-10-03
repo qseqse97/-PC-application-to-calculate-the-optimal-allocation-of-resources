@@ -28,136 +28,137 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-			this.label_inp = new System.Windows.Forms.Label();
-			this.button_bill = new System.Windows.Forms.Button();
-			this.dataGridView_otv = new System.Windows.Forms.DataGridView();
-			this.comboBox_otv = new System.Windows.Forms.ComboBox();
-			this.dataGridView_inp = new System.Windows.Forms.DataGridView();
-			this.button_naz = new System.Windows.Forms.Button();
-			this.listBox1 = new System.Windows.Forms.ListBox();
-			this.label1 = new System.Windows.Forms.Label();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView_otv)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView_inp)).BeginInit();
-			this.SuspendLayout();
-			// 
-			// label_inp
-			// 
-			this.label_inp.AutoSize = true;
-			this.label_inp.Location = new System.Drawing.Point(12, 9);
-			this.label_inp.Name = "label_inp";
-			this.label_inp.Size = new System.Drawing.Size(52, 13);
-			this.label_inp.TabIndex = 0;
-			this.label_inp.Text = "Решение";
-			// 
-			// button_bill
-			// 
-			this.button_bill.Location = new System.Drawing.Point(11, 319);
-			this.button_bill.Name = "button_bill";
-			this.button_bill.Size = new System.Drawing.Size(48, 23);
-			this.button_bill.TabIndex = 2;
-			this.button_bill.Text = "Подсчитать ";
-			this.button_bill.UseVisualStyleBackColor = true;
-			this.button_bill.Click += new System.EventHandler(this.button1_Click);
-			// 
-			// dataGridView_otv
-			// 
-			this.dataGridView_otv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView_otv.Cursor = System.Windows.Forms.Cursors.Default;
-			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle3.Format = "N2";
-			dataGridViewCellStyle3.NullValue = null;
-			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridView_otv.DefaultCellStyle = dataGridViewCellStyle3;
-			this.dataGridView_otv.Location = new System.Drawing.Point(11, 25);
-			this.dataGridView_otv.Name = "dataGridView_otv";
-			this.dataGridView_otv.Size = new System.Drawing.Size(240, 255);
-			this.dataGridView_otv.TabIndex = 5;
-			this.dataGridView_otv.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView_inp_EditingControlShowing_1);
-			// 
-			// comboBox_otv
-			// 
-			this.comboBox_otv.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_otv.FormattingEnabled = true;
-			this.comboBox_otv.Location = new System.Drawing.Point(7, 286);
-			this.comboBox_otv.Name = "comboBox_otv";
-			this.comboBox_otv.Size = new System.Drawing.Size(121, 21);
-			this.comboBox_otv.TabIndex = 6;
-			this.comboBox_otv.SelectedIndexChanged += new System.EventHandler(this.comboBox_otv_SelectedIndexChanged);
-			// 
-			// dataGridView_inp
-			// 
-			this.dataGridView_inp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView_inp.Cursor = System.Windows.Forms.Cursors.Default;
-			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle4.Format = "N2";
-			dataGridViewCellStyle4.NullValue = null;
-			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.dataGridView_inp.DefaultCellStyle = dataGridViewCellStyle4;
-			this.dataGridView_inp.Location = new System.Drawing.Point(257, 25);
-			this.dataGridView_inp.Name = "dataGridView_inp";
-			this.dataGridView_inp.Size = new System.Drawing.Size(225, 255);
-			this.dataGridView_inp.TabIndex = 7;
-			this.dataGridView_inp.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView_inp_EditingControlShowing_1);
-			// 
-			// button_naz
-			// 
-			this.button_naz.Location = new System.Drawing.Point(80, 319);
-			this.button_naz.Name = "button_naz";
-			this.button_naz.Size = new System.Drawing.Size(48, 23);
-			this.button_naz.TabIndex = 8;
-			this.button_naz.Text = "Назад";
-			this.button_naz.UseVisualStyleBackColor = true;
-			// 
-			// listBox1
-			// 
-			this.listBox1.FormattingEnabled = true;
-			this.listBox1.Location = new System.Drawing.Point(134, 286);
-			this.listBox1.Name = "listBox1";
-			this.listBox1.Size = new System.Drawing.Size(348, 56);
-			this.listBox1.TabIndex = 9;
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(254, 9);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(94, 13);
-			this.label1.TabIndex = 10;
-			this.label1.Text = "Входные дынные";
-			// 
-			// Form_inp
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(494, 345);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.listBox1);
-			this.Controls.Add(this.button_naz);
-			this.Controls.Add(this.dataGridView_inp);
-			this.Controls.Add(this.comboBox_otv);
-			this.Controls.Add(this.dataGridView_otv);
-			this.Controls.Add(this.button_bill);
-			this.Controls.Add(this.label_inp);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.Name = "Form_inp";
-			this.Text = "Форма ввода";
-			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_inp_FormClosed);
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView_otv)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.dataGridView_inp)).EndInit();
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.label_inp = new System.Windows.Forms.Label();
+            this.button_bill = new System.Windows.Forms.Button();
+            this.dataGridView_otv = new System.Windows.Forms.DataGridView();
+            this.comboBox_otv = new System.Windows.Forms.ComboBox();
+            this.dataGridView_inp = new System.Windows.Forms.DataGridView();
+            this.button_naz = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_otv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_inp)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label_inp
+            // 
+            this.label_inp.AutoSize = true;
+            this.label_inp.Location = new System.Drawing.Point(12, 9);
+            this.label_inp.Name = "label_inp";
+            this.label_inp.Size = new System.Drawing.Size(52, 13);
+            this.label_inp.TabIndex = 0;
+            this.label_inp.Text = "Решение";
+            // 
+            // button_bill
+            // 
+            this.button_bill.Location = new System.Drawing.Point(11, 319);
+            this.button_bill.Name = "button_bill";
+            this.button_bill.Size = new System.Drawing.Size(48, 23);
+            this.button_bill.TabIndex = 2;
+            this.button_bill.Text = "Подсчитать ";
+            this.button_bill.UseVisualStyleBackColor = true;
+            this.button_bill.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dataGridView_otv
+            // 
+            this.dataGridView_otv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_otv.Cursor = System.Windows.Forms.Cursors.Default;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.Format = "N2";
+            dataGridViewCellStyle1.NullValue = null;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_otv.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView_otv.Location = new System.Drawing.Point(11, 25);
+            this.dataGridView_otv.Name = "dataGridView_otv";
+            this.dataGridView_otv.Size = new System.Drawing.Size(240, 255);
+            this.dataGridView_otv.TabIndex = 5;
+            this.dataGridView_otv.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView_inp_EditingControlShowing_1);
+            // 
+            // comboBox_otv
+            // 
+            this.comboBox_otv.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_otv.FormattingEnabled = true;
+            this.comboBox_otv.Location = new System.Drawing.Point(7, 286);
+            this.comboBox_otv.Name = "comboBox_otv";
+            this.comboBox_otv.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_otv.TabIndex = 6;
+            this.comboBox_otv.SelectedIndexChanged += new System.EventHandler(this.comboBox_otv_SelectedIndexChanged);
+            // 
+            // dataGridView_inp
+            // 
+            this.dataGridView_inp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_inp.Cursor = System.Windows.Forms.Cursors.Default;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = null;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_inp.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView_inp.Location = new System.Drawing.Point(257, 25);
+            this.dataGridView_inp.Name = "dataGridView_inp";
+            this.dataGridView_inp.Size = new System.Drawing.Size(225, 255);
+            this.dataGridView_inp.TabIndex = 7;
+            this.dataGridView_inp.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView_inp_EditingControlShowing_1);
+            // 
+            // button_naz
+            // 
+            this.button_naz.Location = new System.Drawing.Point(80, 319);
+            this.button_naz.Name = "button_naz";
+            this.button_naz.Size = new System.Drawing.Size(48, 23);
+            this.button_naz.TabIndex = 8;
+            this.button_naz.Text = "Назад";
+            this.button_naz.UseVisualStyleBackColor = true;
+            this.button_naz.Click += new System.EventHandler(this.button_naz_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(134, 286);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(348, 56);
+            this.listBox1.TabIndex = 9;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(254, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(94, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Входные дынные";
+            // 
+            // Form_inp
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(494, 345);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button_naz);
+            this.Controls.Add(this.dataGridView_inp);
+            this.Controls.Add(this.comboBox_otv);
+            this.Controls.Add(this.dataGridView_otv);
+            this.Controls.Add(this.button_bill);
+            this.Controls.Add(this.label_inp);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Name = "Form_inp";
+            this.Text = "Форма ввода";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_inp_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_otv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_inp)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 

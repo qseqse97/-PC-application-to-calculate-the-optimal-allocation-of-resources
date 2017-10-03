@@ -43,3 +43,37 @@ E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\De
 E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 E:\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.decision.resources
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\student\Desktop\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.decision.resources
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\буфер обмена СЮДА ВСЕ КИДАТЬ!!!!!!!!!!!!!!!!!\жилкина курсовая\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.decision.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_master.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form_inp.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\YandexDisk\техникум\4 курс\1 семестр\жилкина\программа\proeckt\calculate-the-optimal-allocation-of-resources\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
